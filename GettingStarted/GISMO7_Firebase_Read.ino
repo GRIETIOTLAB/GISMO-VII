@@ -45,6 +45,7 @@ int finalCmd;
 
 
 Firebase.getString(firebaseData,"IOTLAB/My_App/Motor_Cmd",lightCmdFull);
+Serial.println(lightCmdFull);  
 lightCmd = lightCmdFull.substring(2,lightCmdFull.length()-2);
 finalCmd = lightCmd.toInt();
 
