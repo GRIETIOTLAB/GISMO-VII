@@ -1,7 +1,7 @@
 void setup() {
   // put your setup code here, to run once:
 pinMode(14,INPUT_PULLUP);
-pinMode(25,OUTPUT);
+pinMode(2,OUTPUT);
 Serial.begin(115200);
 }
 
@@ -12,12 +12,12 @@ value = digitalRead(14);
 if(value == HIGH)
 {
 Serial.println("Switch open");
-digitalWrite(25,LOW);
+digitalWrite(2,LOW);
 }
 else
 {
 Serial.println("Switch closed");
-digitalWrite(25,HIGH);
+digitalWrite(2,HIGH);
 }
 delay(1000);
 
