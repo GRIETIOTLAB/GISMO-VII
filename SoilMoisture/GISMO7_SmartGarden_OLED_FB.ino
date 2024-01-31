@@ -1,5 +1,5 @@
 /* Soil Moisture sensor pin   : GPIO34
- * Relay pin                  : GPIO25
+ * Relay pin                  : GPIO13
  *
   */
 #include "Credentials.h"
