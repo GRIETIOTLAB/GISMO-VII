@@ -5,7 +5,7 @@
 #include "Credentials.h"
 
 #define smPin 34
-#define relayPin 25
+#define relayPin 13
 int smValue;
 int smLimit = 1500;
 int delayTime = 2000;
