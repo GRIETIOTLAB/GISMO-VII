@@ -1,7 +1,7 @@
-#define FIREBASE_HOST "gismo7-default-rtdb.firebaseio.com/" //Do not include https:// in FIREBASE_HOST
-#define FIREBASE_AUTH "tRZxezT4QJA3zoi7bzTUjlGkto9YhzMe0fsOKUgC"
-#define WIFI_SSID "IDEALab03"
-#define WIFI_PASSWORD "griet@idealab"
+#define FIREBASE_HOST "xxxxxxxxxxxxxxxxxxxxxxxx" //Do not include https:// in FIREBASE_HOST
+#define FIREBASE_AUTH "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+#define WIFI_SSID "xxxxxxxxxxxx"
+#define WIFI_PASSWORD "xxxxxxxxx"
 #include <Wire.h>
 #include "SSD1306.h" 
 #include "FirebaseESP32.h"
