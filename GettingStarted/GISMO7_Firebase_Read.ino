@@ -47,9 +47,10 @@ int finalCmd;
 Firebase.getString(firebaseData,"IOTLAB/My_App/Motor_Cmd",lightCmdFull);
 Serial.println(lightCmdFull);  
 lightCmd = lightCmdFull.substring(2,lightCmdFull.length()-2);
+Serial.println(lightCmd);  
 finalCmd = lightCmd.toInt();
 
-if(finalCmd == 1)
+if(lightCmd == "1")
 {
   digitalWrite(2,HIGH);
   Serial.println("Light ON");
