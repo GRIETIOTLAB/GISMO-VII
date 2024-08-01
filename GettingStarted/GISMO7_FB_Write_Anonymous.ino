@@ -4,10 +4,10 @@
 #include "addons/RTDBHelper.h"
 
 
-#define WIFI_SSID "IDEALab03"
-#define WIFI_PASSWORD "griet@idealab"
-#define API_KEY "AIzaSyC-zI60FmauZOLGzAw64IRiXKv4swzSLDM"
-#define DATABASE_URL "https://myproject-e6014-default-rtdb.firebaseio.com/" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
+#define WIFI_SSID "xxxxxxxxxxx"
+#define WIFI_PASSWORD "xxxxxxxxxxxx"
+#define API_KEY "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+#define DATABASE_URL "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
 
 FirebaseData fbdo;
 FirebaseAuth auth;
