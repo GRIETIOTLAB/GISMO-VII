@@ -8,18 +8,18 @@
 #include "addons/RTDBHelper.h"
 
 /* 1. Define the WiFi credentials */
-#define WIFI_SSID "IDEALab03"
-#define WIFI_PASSWORD "griet@idealab"
+#define WIFI_SSID "xxxxxxxxxxx"
+#define WIFI_PASSWORD "xxxxxxxxx"
 
 /* 2. Define the API Key */
-#define API_KEY "AIzaSyC-zI60FmauZOLGzAw64IRiXKv4swzSLDM"
+#define API_KEY "xxxxxxxxxxxxxxxxxxx"
 
 /* 3. Define the RTDB URL */
-#define DATABASE_URL "https://myproject-e6014-default-rtdb.firebaseio.com/" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
+#define DATABASE_URL "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
 
 /* 4. Define the user Email and password that alreadey registerd or added in your project */
-#define USER_EMAIL "arsa07secunderabad@gmail.com"
-#define USER_PASSWORD "preethi1962"
+#define USER_EMAIL "xxxxxxxxxxxxxxxxxxxxxxxxxx"
+#define USER_PASSWORD "xxxxxxxxxxxxxxxxxxxxxx"
 
 //Define Firebase Data object
 FirebaseData fbdo;
