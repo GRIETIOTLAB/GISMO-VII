@@ -17,10 +17,10 @@ SSD1306  display(0x3c, 21, 22);
 
 float tempC,tempF,atPressure,altitude,humidity;
 
-#define WIFI_SSID "IDEALab03"
-#define WIFI_PASSWORD "griet@idealab"
-#define API_KEY "AIzaSyC-zI60FmauZOLGzAw64IRiXKv4swzSLDM"
-#define DATABASE_URL "https://myproject-e6014-default-rtdb.firebaseio.com/" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
+#define WIFI_SSID "xxxxxxxxxxx"
+#define WIFI_PASSWORD "xxxxxxxxxxxxxxx"
+#define API_KEY "xxxxxxxxxxxxxxxx"
+#define DATABASE_URL "xxxxxxxxxxxxxxxxxxxxxx" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
 
 FirebaseData fbdo;
 FirebaseAuth auth;
