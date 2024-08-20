@@ -88,14 +88,14 @@ void loop()
         //Serial.printf("Set int... %s\n", Firebase.setInt(fbdo, path.c_str(), count++) ? "ok" : fbdo.errorReason().c_str());
        // Serial.printf("Set int... %s\n", Firebase.setInt(fbdo, "IOTLAB/SensorValue", count++) ? "ok" : fbdo.errorReason().c_str());
 
-        if(Firebase.getString(fbdo,"/IOTLAB/MotorCmd",myString))
-        {
+        Firebase.getString(fbdo,"/IOTLAB/MotorCmd");
+        myString = fbdo.to<const char *>();
           Serial.println(myString);
           char c = myString.charAt(2);
           int k = c-48;
           Serial.println(k);
-        }
-        else
-        Serial.println("String not found");
+        
+        
+        
     }
 }
