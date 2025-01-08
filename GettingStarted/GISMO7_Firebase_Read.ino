@@ -14,6 +14,7 @@ int delayTime = 2000;
 void setup() {
   // put your setup code here, to run once:
   pinMode(2,OUTPUT);
+  pinMode(13,OUTPUT);
   Serial.begin(115200);
 
 
@@ -53,12 +54,14 @@ finalCmd = lightCmd.toInt();
 if(lightCmd == "1")
 {
   digitalWrite(2,HIGH);
+  digitalWrite(13,LOW);
   Serial.println("Light ON");
   
 }
 else
 {
    digitalWrite(2,LOW);
+   digitalWrite(13,HIGH);
   Serial.println("Light OFF");
     
 }
