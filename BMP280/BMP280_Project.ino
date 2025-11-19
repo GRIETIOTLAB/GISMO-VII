@@ -20,10 +20,10 @@
 #include "FirebaseESP32.h"
 #include <Adafruit_BMP280.h>
 
-#define FIREBASE_HOST "radsproject.firebaseio.com/" //Do not include https:// in FIREBASE_HOST
-#define FIREBASE_AUTH "4niCZOkFw4C2WVZf04gk9PrQx9isMG7NbCva9CmU"
-#define WIFI_SSID "IDEALab03"
-#define WIFI_PASSWORD "griet@idealab"
+#define FIREBASE_HOST "xxxxxxxxxxxxxxxxxxxxxxxx" //Do not include https:// in FIREBASE_HOST
+#define FIREBASE_AUTH "xxxxxxxxxxxxxxxxxxxxxxxx"
+#define WIFI_SSID "xxxxxxxxxxxxxxxxxx"
+#define WIFI_PASSWORD "xxxxxxxxxxxxxxxxxx"
 
 
 FirebaseData firebaseData;
@@ -153,3 +153,4 @@ void FirebaseInit(){
   Firebase.reconnectWiFi(true);
 
 }
+
